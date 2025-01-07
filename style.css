@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+}
+header {
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+  padding: 25px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  z-index: +1;
+}
+header .plans {
+  border: 3px solid hsl(256, 26%, 20%);
+  padding: 5px 17px;
+  font-weight: 700;
+}
+
+header a {
+  color: hsl(256, 26%, 20%);
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 120px;
+  background-color: hsl(256, 26%, 20%);
+  color: #fff;
+  height: 400px;
+}
+.hero .text a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.hero .image img {
+  height: 600px;
+  position: relative;
+  bottom: 30px;
+}
+.text .plans {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 17px;
+  font-weight: 700;
+  position: relative;
+  bottom: 25px;
+}
+.text h1 {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: 60px;
+  font-family: 700;
+  line-height: 60px;
+}
+.text h2 {
+  border: 1px solid #fff;
+  width: 30%;
+}
+.text p {
+  font-size: 15px;
+  position: relative;
+  bottom: 30px;
+}
+.hero .image {
+  position: relative;
+  top: 180px;
+}
+section .border {
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  height: auto;
+}
+section .border img {
+  height: 370px;
+}
+.different {
+  padding: 25px 120px;
+}
+.image2 {
+  position: absolute;
+  bottom: 1px;
+}
+.different-text {
+  position: relative;
+  top: 70px;
+}
+.different-text h2 {
+  border: 1px solid #000;
+  width: 12%;
+  position: relative;
+  z-index: +1;
+}
+.different .different-text h1 {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: "DM Serif Display", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  top: 80px;
+}
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+.card p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.different .conatiner1 {
+    padding: 30px;
+    background: hsl(256, 26%, 20%);
+    color: #fff;
+    height: 150px; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    position: relative;
+    top: 150px;
+  }
+.different .conatiner1 h2 {
+  font-weight: 800;
+  font-size: 40px;
+  font-family: "DM Serif Display", sans-serif;
+  position: relative;
+  /* bottom: 22px; */
+  left: 35px;
+}
+/* .different .conatiner1 .btn{
+    border: 2px solid white;
+    padding: 5px 10px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+} */
+
+.different .conatiner1 a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 4px 20px; 
+    line-height: 20px; 
+    height: 35px; 
+    box-sizing: border-box; 
+    vertical-align: middle; 
+    margin: 0; 
+    position: relative;
+    right: 140px;
+  }
+  .different .conatiner1 .image3{
+    position: relative;
+    left: 50px;
+  }
