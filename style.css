@@ -4,9 +4,9 @@ body {
   font-family: "Karla", sans-serif;
   font-size: 18px;
 }
+
 header {
   background-color: white;
-  color: hsl(256, 26%, 20%);
   padding: 25px 120px;
   display: flex;
   justify-content: space-between;
@@ -17,20 +17,32 @@ header {
   position: relative;
   z-index: +1;
 }
+
 header .plans {
   border: 3px solid hsl(256, 26%, 20%);
   padding: 5px 17px;
   font-weight: 700;
 }
 
+.plans:hover {
+  background-color: hsl(270, 9%, 17%);
+  color: #fff;
+  transform: scale(1.05);
+}
+
 header a {
-  color: hsl(256, 26%, 20%);
+  color: hsl(273, 4%, 51%);
   text-decoration: none;
   margin-left: 20px;
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
 }
+
+nav a:hover {
+  color: hsl(256, 26%, 20%);
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -40,18 +52,21 @@ header a {
   color: #fff;
   height: 400px;
 }
+
 .hero .text a {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
 }
+
 .hero .image img {
   height: 600px;
   position: relative;
   bottom: 30px;
 }
-.text .plans {
+
+.text .plans1 {
   border: 1px solid #fff;
   color: #fff;
   padding: 5px 17px;
@@ -59,56 +74,73 @@ header a {
   position: relative;
   bottom: 25px;
 }
+
+.plans1:hover {
+  background-color: #fff;
+  color: hsl(256, 26%, 20%);
+}
+
 .text h1 {
   font-family: "DM Serif Display", sans-serif;
   font-size: 60px;
   font-family: 700;
   line-height: 60px;
 }
+
 .text h2 {
   border: 1px solid #fff;
   width: 30%;
 }
+
 .text p {
   font-size: 15px;
   position: relative;
   bottom: 30px;
 }
+
 .hero .image {
   position: relative;
   top: 180px;
 }
+
 section .border {
   position: absolute;
   right: 0px;
   top: 25px;
   height: auto;
 }
+
 section .border img {
   height: 370px;
 }
+
 .different {
   padding: 25px 120px;
 }
+
 .image2 {
   position: absolute;
-  bottom: 1px;
+  top: 410px;
 }
+
 .different-text {
   position: relative;
   top: 70px;
 }
+
 .different-text h2 {
   border: 1px solid #000;
   width: 12%;
   position: relative;
   z-index: +1;
 }
+
 .different .different-text h1 {
   font-size: 55px;
   font-weight: 700;
   font-family: "DM Serif Display", sans-serif;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -116,63 +148,260 @@ section .border img {
   position: relative;
   top: 80px;
 }
+
 .card {
   background: white;
   padding: 10px;
   border-radius: 8px;
-
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
+
 .card p {
   font-size: 15px;
   font-weight: 400;
 }
+
 .different .conatiner1 {
-    padding: 30px;
-    background: hsl(256, 26%, 20%);
-    color: #fff;
-    height: 150px; 
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    position: relative;
-    top: 150px;
-  }
+  padding: 20px;
+  background: hsl(256, 26%, 20%);
+  color: #fff;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 150px;
+}
+
 .different .conatiner1 h2 {
   font-weight: 800;
   font-size: 40px;
   font-family: "DM Serif Display", sans-serif;
   position: relative;
-  /* bottom: 22px; */
   left: 35px;
 }
-/* .different .conatiner1 .btn{
-    border: 2px solid white;
-    padding: 5px 10px;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
-} */
+
+.different .conatiner1 .plans2 {
+  padding: 5px 10px;
+  font-weight: 700;
+  color: #fff;
+}
 
 .different .conatiner1 a {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 15px;
-    text-transform: uppercase;
-    border: 2px solid white;
-    color: #fff;
-    text-align: center;
-    display: inline-block;
-    padding: 4px 20px; 
-    line-height: 20px; 
-    height: 35px; 
-    box-sizing: border-box; 
-    vertical-align: middle; 
-    margin: 0; 
-    position: relative;
-    right: 140px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 2px solid white;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 4px 20px;
+  line-height: 20px;
+  height: 35px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin: 0;
+  position: relative;
+  right: 140px;
+}
+
+.different .find-out .image4 {
+  position: absolute;
+  right: 119px;
+  top: 1135px;
+  z-index: +1;
+  height: 80px;
+}
+
+.footer {
+  padding: 25px 120px;
+  background: hsl(0, 0%, 98%);
+  position: relative;
+  top: 200px;
+  height: auto;
+}
+
+.footer .footer-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footer-upper .social-media svg {
+  padding: 4px;
+}
+
+.footer svg path:hover {
+  fill: black;
+}
+
+.footer-lower {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  right: 140px;
+  bottom: 10px;
+}
+
+.footer-lower .lower h6 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.footer .footer-lower .lower .company {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.footer-lower .lower .company a {
+  color: hsl(270, 9%, 17%);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer .footer-image img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.company a:hover {
+  text-decoration: underline !important;
+  color: black;
+}
+/* .hamburger {
+  visibility: hidden;
+} */
+
+/* @media (max-width: 991px) {
+  header{
+    padding: 20px;
   }
-  .different .conatiner1 .image3{
+  header nav{
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+  }
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+  .different{
+    padding: 20px;
     position: relative;
     left: 50px;
   }
+  .footer{
+    padding: 25px 50px;
+  }
+
+  .hero .image img {
+    height: 300px;
+  }
+
+  .text h1 {
+    font-size: 45px;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .different .image4 img{
+    position: relative;
+    top: 750px;
+  }
+} */
+/* @media (min-width:375px) and (max-width:767px){
+    header .heading img{
+        height: 30px;
+    }
+    header nav a{
+        display: none;
+    }
+    header nav .hamburger{
+        visibility: inherit;
+        position: relative;
+        left: 420px;
+    }
+    .hero .image{
+        position: absolute;
+        width: 100%;
+    }
+ } */
+@media (max-width: 767px) {
+  header {
+    padding: 20px;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+  }
+  header .hamburger {
+    visibility: inherit;
+    justify-content: flex-end;
+  }
+  header nav a {
+    visibility: hidden;
+    display: none;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+
+  .text h1 {
+    font-size: 45px;
+  }
+  .different .different-text{
+    position: relative;
+    bottom: 40px;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container .card h4 {
+    text-align: center;
+  }
+  .container .card p {
+    text-align: center;
+  }
+  .container .card img {
+    margin-left: 100px;
+  }
+  .different .find-out .container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .different .find-out .conatiner1 h2{
+    font-size: 25px;
+  }
+  .different .find-out .conatiner1 a{
+    font-size: 10px;
+    position: relative;
+    right: 25px;
+  }
+
+  .footer-lower {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-lower .lower {
+    margin-bottom: 10px;
+  }
+}
