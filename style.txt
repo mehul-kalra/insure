@@ -1,0 +1,448 @@
+@media (max-width: 767px) {
+  header {
+    /* padding: 20px; */
+    
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    display: flex;
+    justify-content: space-between;
+  }
+  header .hamburger {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px; */
+  }
+  header nav a {
+    display: none;
+  }
+  section .border img {
+    display: none;
+  }
+
+  .hero {
+    /* display: flex; */
+    flex-direction: column-reverse;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    height: auto;
+    padding: 0px;
+
+  }
+  .hero .image{
+    max-width: 100%;
+    border: 2px solid black;
+  }
+  .hero .text {
+    order: 1; 
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .hero .image {
+    order: 2; 
+    /* width: 100%; */
+  }
+
+  .text h1 {
+    font-size: 45px;
+  }
+  .different .different-text {
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container .card h4 {
+    text-align: center;
+  }
+  .container .card p {
+    text-align: center;
+  }
+  .container .card img {
+    margin-left: 100px;
+  }
+  .different .find-out {
+    /* height: auto; */
+    /* display: flex;
+    justify-content: space-between; */
+  }
+  .different .find-out .container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: center;
+    align-items: flex-end; */
+    gap: 210px;
+    /* align-items: center; */
+  }
+  .different .find-out .container1 .content{
+    display: flex;
+    flex-direction: column;
+    font-size: 120px;
+  }
+  .different .find-out img{
+    /* position: absolute;
+    left: 0px; */
+    height: 150px;
+    position: relative;
+
+  }
+  
+  .different .find-out .conatiner1 h2 {
+    font-size: 25px;
+  }
+  .different .find-out .conatiner1 a {
+    font-size: 10px;
+  }
+  footer .footer-upper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-lower {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .footer-lower .point {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+@media (max-width:448px){
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero .image img{
+    position: absolute;
+    /* top: 0px; */
+    /* height: auto; */
+    /* max-width: 100%; */
+    /* object-fit: cover; */
+  }
+  .hero{
+    /* margin-top: -12rem; */
+    flex-direction: column-reverse;
+  }
+  .hero .text{
+    /* height: 100%; */
+    /* padding: 80px; */
+    /* padding-bottom: 100px; */
+    /* padding-top: 170px; */
+    
+  }
+  .hero .text .text-line span{
+    font-size: 30px;
+  }
+}
+
+
+
+////////
+@media (min-width:375px){
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 20px; */
+    padding: 20px;
+  }
+  .hero{
+    padding: 20px;
+    /* padding-top: 250px; */
+  }
+  section .border img{
+    height: 50px;
+  }
+
+  .hero .border img{
+    /* position: absolute; */
+    /* top: 0px; */
+    /* height: auto; */
+    /* max-width: 100%; */
+    /* object-fit: cover; */
+  }
+  .hero{
+    /* margin-top: -12rem; */
+    flex-direction: column-reverse;
+  }
+  .hero .text{
+    /* height: 100%; */
+    /* padding: 80px; */
+    /* padding-bottom: 100px; */
+    /* padding-top: 170px; */
+    
+  }
+  .hero .text .text-line span{
+    /* font-size: 30px; */
+  }
+  .different .different-text h1{
+    font-size: 20px;
+  }
+}
+
+
+///////////////
+
+
+max-width 787 
+
+@media (max-width: 767px) {
+  header {
+    /* padding: 20px; */
+    
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    display: flex;
+    justify-content: space-between;
+  }
+  header .hamburger {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px; */
+  }
+  header nav a {
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: space-between;
+    align-items: center;
+    /* height: auto; */
+    padding: 20x;
+  }
+  .hero .text .text-line{
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero .text .text-line2{
+    font-size: 10px;
+    line-height: 25px;
+  }
+  .hero .text .text-line2 span{
+    position: relative;
+    right: 20px;
+  }
+  .hero .text  a{
+  position: relative;
+  right: 100px;
+  }
+  .hero .image img{
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    bottom: 180px;
+    
+  }
+  .hero .text {
+    order: 1; 
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .hero .image {
+    order: 2; 
+    /* width: 100%; */
+  }
+  .hero  .text .image2 img{
+    position: absolute; 
+  }
+  .text h1 {
+    font-size: 45px;
+  }
+
+  
+  .different .find-out .container1 {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row-reverse; */
+    /* justify-content: center;
+    align-items: flex-end; */
+    gap: 210px;
+    /* align-items: center; */
+  }
+  /* .different .find-out .container1 .content span{
+    font-size: 1px;
+  } */
+  .different .find-out .container1 .plans2{
+    position: relative;
+    left: 400px;
+  }
+
+  .different .find-out .conatiner1 .content{
+    display: flex;
+    flex-direction: column;
+    /* font-size: 40px; */
+  }
+  .different .find-out img{
+    /* position: absolute;
+    left: 0px; */
+    height: 150px;
+    position: relative;
+    display: none;
+  }
+  
+  .different .find-out .conatiner1 h2 {
+    font-size: 25px;
+  }
+  .different .find-out .conatiner1 a {
+    font-size: 10px;
+  }
+  footer .footer-upper{
+    gap: 10px;
+  }
+
+  .footer-lower {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  /* align-items: flex-start; */
+  
+  /* flex-direction: row; */
+    
+  
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .footer-lower .point  h6{
+    font-size: 8px;
+
+  }
+  .footer-lower .point .sub-point {
+    font-size: 8px;
+
+  }
+  .footer .footer-image img{
+    position: relative;
+    top: 20px;
+    height: 120px;
+  }
+}
+
+
+//////  extra for mobile 
+
+header{
+    /* padding: 20px 60px; */
+  }
+  .different{
+    /* padding: 20px 60px; */
+  }
+  header nav a {
+    display: none;
+    /* padding: 20px; */
+  }
+  header .hamburger {
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding: 20px; */
+  } 
+  .hero{
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero .text .image img{
+    height: auto;
+    padding-top: 60px;
+    /* width: 100%; */
+  }
+  .hero .text .text-line span{
+    font-size: 40px;
+  }
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container .card h4 {
+    text-align: center;
+  }
+  .container .card p {
+    text-align: center;
+  }
+  .container .card img {
+    margin-left: 100px;
+  }
+
+  .different .find-out {
+    /* height: auto; */
+    /* display: flex;
+    justify-content: space-between; */
+  }
+  .different .find-out .container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: center;
+    align-items: flex-end; */
+    gap: 210px;
+    /* align-items: center; */
+  }
+  .different .find-out .container1 .content{
+    display: flex;
+    flex-direction: column;
+    font-size: 120px;
+  }
+  .different .find-out img{
+    /* position: absolute;
+    left: 0px; */
+    height: 150px;
+    position: relative;
+
+  }
+  
+  .different .find-out .conatiner1 h2 {
+    font-size: 25px;
+  }
+  .different .find-out .conatiner1 a {
+    font-size: 10px;
+  }
+
+  footer .footer-upper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-lower {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 140px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .footer-lower .point {
+    margin-bottom: 10px;
+    /* justify-content: center; */
+    align-items: center;
+  }
+}
+
+
+
