@@ -62,6 +62,10 @@ nav a:hover {
   font-weight: 500;
   font-size: 16px;
   text-transform: uppercase;
+  /* padding-top: 20px; */
+}
+.text .btn{
+  margin-top: 30px;
 }
 
 .text .plans1 {
@@ -296,6 +300,10 @@ section .border img {
   padding: 65px 170px;
   margin-top: 80px;
   background: hsl(0, 0%, 98%);
+  background-image: url(/images/bg-pattern-footer-desktop.svg);
+  background-size:  400px 200px;
+  background-repeat: no-repeat;
+  background-position:  auto  ;
   /* position: relative;
   top: 200px; */
   /* height: auto; */
@@ -346,11 +354,11 @@ section .border img {
   font-weight: 700;
 }
 
-.footer .footer-image {
+/* .footer .footer-image {
   position: absolute;
   top: 2235px;
   left: 0px;
-}
+} */
 
 .sub-point a:hover {
   text-decoration: underline !important;
@@ -505,7 +513,10 @@ section .mobile-right{
     height: auto;
   }
   section .mobile-right{
-    display: none;
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 750px;
     /* position: relative;
     left: 250px;
     bottom: 100px; */
@@ -597,7 +608,7 @@ section .mobile-right{
   }
   .different .find-out .find-btn {
     /* height: auto; */
-    padding-left: 30px;
+    /* padding-left: 30px; */
     /* width: 50%; */
     
     /* padding: 20px 40px; */
@@ -622,6 +633,7 @@ section .mobile-right{
     position: relative;
   } */
   footer .footer-upper {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -633,8 +645,8 @@ section .mobile-right{
     margin-right: 0px;
   }
   .footer .footer-image img {
-    position: relative;
-    bottom: 430px;
+    /* position: relative;
+    bottom: 430px; */
     /* right: 0px; */
   }
 
