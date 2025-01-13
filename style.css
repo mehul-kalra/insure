@@ -1,9 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: "Karla", sans-serif;
   font-size: 18px;
 }
+
 
 header {
   background-color: white;
@@ -69,8 +74,9 @@ nav a:hover {
 }
 
 .text .plans1 {
-  border: 1px solid hsl(273, 4%, 51%);
-  color: hsl(273, 4%, 51%);
+  border: 1px solid white;
+  color: white;
+  opacity: 0.7;
   padding: 10px 30px;
   font-weight: 700;
   /* position: relative;
@@ -86,8 +92,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   font-family: "DM Serif Display", sans-serif;
-  font-size: 80px;
-  font-family: 700;
+  font-size: 50px;
+  font-family: 400;
   line-height: 75px;
   margin-bottom: 20px;
 }
@@ -103,9 +109,11 @@ nav a:hover {
 .text .text-line2 {
   display: flex;
   flex-direction: column;
-  color: hsl(273, 4%, 51%);
+  color:white;
+  opacity: 0.7;
   font-size: 18px;
   margin-top: 30px;
+  margin-right: 30px;
   font-weight: 400;
   margin-bottom: 15px;
   line-height: 30px;
@@ -115,7 +123,7 @@ nav a:hover {
   /* margin-top: 0px; */
   /* padding: 30px; */
   margin-top: 400px;
-  height: 750px;
+  /* height: 750px; */
   /* position: relative;
   top: 180px; */
 }
@@ -155,6 +163,7 @@ section .border img {
   width: 10%;
   height: 1px;
   background-color: hsl(256, 26%, 20%);
+  margin-bottom: 70px;
 }
 
 .different .different-text h1 {
@@ -173,9 +182,16 @@ section .border img {
 
 .card {
   background: white;
-  padding: 10px;
-
+  padding: 70px 20px;
+  /* padding-bottom: 80px; */
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.card img{
+  /* height: 100px;
+  width: 100px; */
 }
 .card h4{
   font-family: "DM Serif Display", sans-serif;
@@ -243,7 +259,7 @@ section .border img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 60px 80px;
   font-family: "DM Serif Display", sans-serif;
   /* background-attachment: fixed; */
   background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
@@ -285,7 +301,7 @@ section .border img {
   letter-spacing: 2px;
   text-transform: uppercase;
   border: 2px solid white;
-  padding: 10px 20px;
+  padding: 12px 20px;
   font-weight: 400;
 }
 
@@ -313,7 +329,9 @@ section .border img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 30px;
 }
+
 
 .footer .footer-upper .social-media svg {
   padding: 4px;
@@ -321,6 +339,12 @@ section .border img {
 
 .footer svg path:hover {
   fill: black;
+}
+.footer h1{
+  border-top: 1px solid black;
+  opacity: 0.2;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 .footer-lower {
@@ -330,6 +354,11 @@ section .border img {
   /* position: relative;
   right: 140px;
   bottom: 10px; */
+}
+.footer-lower .point{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .footer-lower .point h6 {
@@ -450,11 +479,11 @@ section .mobile-right{
     justify-content: space-between;
     gap: 30px;
   }
-  .hero .text .text-line span {
+  .hero .text .text-line h1 {
     font-size: 36px;
     line-height: 40px;
   }
-  .hero .text .text-line2 span {
+  .hero .text .text-line2 p {
     font-size: 15px;
   }
   .hero .image img {
@@ -473,7 +502,7 @@ section .mobile-right{
     font-size: 70px;
   }
   .different .find-out {
-    padding: 10px 40px;
+    padding: 25px 40px;
     background-size: auto 370px;
     background-position: right;
     height: auto;
@@ -537,7 +566,7 @@ section .mobile-right{
     height: auto;
     /* height: 100%; */
     width: 100%;
-    padding: 1px;
+    /* padding: 1px; */
     /* padding: 0px; */
     /* margin-top:400px;
     padding-top: 200px; */
@@ -552,13 +581,14 @@ section .mobile-right{
   .hero .text .line {
     display: none;
   }
-  .hero .text .text-line span {
+  .hero .text .text-line h1 {
     font-size: 40px;
     line-height: 40px;
   }
-  .hero .text .text-line2 span {
-    font-size: 10px;
-    line-height: 20px;
+  .hero .text .text-line2 p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 20px;
   }
   section .border {
     display: none;
@@ -586,11 +616,26 @@ section .mobile-right{
     text-align: center;
     gap: 10px;
   }
+  .container .card {
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px 20px;
+  }
+  .container .card img{
+   /* width: 100%; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
   .card .card-text{
     font-size: 14px;
   }
   .different .find-out {
     flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
     /* height: 350px; */
     padding: 20px 50px;
 
@@ -608,7 +653,7 @@ section .mobile-right{
   }
   .different .find-out .find-btn {
     /* height: auto; */
-    /* padding-left: 30px; */
+    padding-right: 30px;
     /* width: 50%; */
     
     /* padding: 20px 40px; */
@@ -641,8 +686,12 @@ section .mobile-right{
   .footer-lower {
     text-align: center;
     display: flex;
+    gap: 10px;
     flex-direction: column;
     margin-right: 0px;
+  }
+  .footer-lower h6{
+    margin-top: 15px;
   }
   .footer .footer-image img {
     /* position: relative;
